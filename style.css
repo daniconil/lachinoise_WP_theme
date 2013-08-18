@@ -1,0 +1,292 @@
+/*
+THEME NAME: la Chinoise Mekong Theme
+THEME URI: http://www.lachinoise.net
+DESCRIPTION: Plantilla para lachinoise.net 
+VERSION: 1.0
+Author: Viet 1
+
+Tags: empty, clean, development, design
+*/
+/*
+	Based on Kubrick v1.5
+	 http://binarybonsai.com/kubrick/
+	The Kubrick theme was designed and built by Michael Heilemann,
+	whose blog you will find at http://binarybonsai.com/
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+
+
+
+li.depth-1 {border: 1px dotted #aaa;} /*-- los comentarios que se van haciendo -- */
+.navigation {border:0px dashed black;}
+.postsintitulo {border:0px dotted #aaa;}
+a img {border : 0px;}
+
+
+/* - BASIC STUFF - */
+body {color:#222222;
+font-family: 'Droid Sans', arial, serif;
+font-size:13px;
+background:transparent url(imagenes/fondo1.jpg) top repeat-x;
+margin-top:0;
+margin-bottom:0;
+text-align:justify;}
+
+a {color: #8f1213; text-decoration:none;}
+a:hover {color: #111;text-decoration:underline;}
+
+
+
+.fecha { 
+	width: 0px;
+	padding-top: 0px;
+	letter-spacing:-1px;
+	/*height: 0px;*/
+	/*margin-left: 0px;*/
+	font: 18px Helvetica, arial,sans-serif;
+	color: #aaa;
+	text-align: right;
+	text-transform: lowercase; 
+
+}
+
+blockquote {
+	    background: url(imagenes/megafono.png) no-repeat top left;margin-left:10px; color:#222; background-color:#fff; }
+
+
+/* -- LISTS -- */
+ul {margin:0;padding:0;}
+ul li {	margin-left:5px;padding:0;}
+li {list-style-type:none;}
+.disc {list-style-type:disc}
+/* lists inside posts */
+.entry-content ul ol {margin-left:0;}
+.entry-content ul li {margin-left:10px; list-style:disc; list-style-position:inside}
+.entry-content ul li ol {margin-left:10px;}
+.entry-content ol li {margin-left:5px; list-style: decimal; list-style-position:inside}
+.entry-content ol li li {margin-left:5px;}
+
+/* -- HEADINGS -- */
+h1,h2,h3,h4,h5,h6 {
+
+margin:0;padding:0;
+color:#333;
+line-height:20px;
+font-family:Helvetica, Geneva, sans-serif;
+font-size:14px;
+}
+h2.entry-title {font-size:180%;}
+h2.entry-title a {color: #333; text-decoration:none;}
+h2.entry-title a:hover {color: #8f1213; text-decoration:none;}
+h2#comments{margin:20px auto 10px;font-size:140%;}
+#frase {padding: 0 25px 0 0; color:#8f1213; font-size:14px; float:right; margin-top:12px;}
+/*-- PAGES EN EL CABECERO --*/
+.cabecero {
+float: left;
+clear:both;
+width: 33%;
+margin-top:11px;
+padding-bottom: 10px;
+}
+.cabecero a { color: #FFF; font-size:18px;
+}
+.cabecero ul li {
+padding-left: 10px;
+display:inline;
+}
+
+/* headings inside posts */
+.entry-content h3 {font-size:140%;}
+.entry-content h4 {font-size:120%;}
+.entry-content h5 {font-size:100%;}
+.entry-content h6 {font-size:90%;}
+
+/* -- MAIN DIV'S -- */
+#wrapper {float:none;clear:both;margin:0 auto;padding:0;width:1090px;}
+#header {height:80px;margin:0 auto; }
+#footer {height:39px; overflow:hidden;clear:both;float:none;text-align:left;border-top:1px solid #aaa;color:#888; background: url(imagenes/footer1.png) no-repeat bottom;}
+
+.pie {
+
+
+
+padding-top:11px;
+padding-bottom: 10px;
+
+
+clear: both;
+    float: none;
+    margin: 0 auto;
+    width: 1090px;
+}
+.pie a { color: #000; font-size:12px;
+}
+.pie ul li {
+padding-left: 10px;
+display:inline;
+}
+
+/* -- POSTS -- */
+.post-index {margin:2px 6px 35px;}
+#post-single {margin:0 0 20px;}
+/*.paginacontenido a {color: #000;}*/
+.posts-wrap {float:left;  clear:none;width:690px; ;}
+.entry-content {padding: 6px 6px 6px 6px; line-height:18px;}
+
+/* --- METADATOS --- */
+.entry-meta {font-size: 90%; margin-top: 1px; padding: 0px 0px 0px 1px; border-top:1px solid #000;}
+.entry-meta-single {font-size: 90%; margin-top: 1px; padding: 0px 0px 0px 1px; }
+
+.metadatos a{font-size: 100%; font-weight:normal; color:#FFFFFF;background-color:#000000; padding:5px;}
+.metadatos a:hover{font-size: 100%;text-decoration:none;font-weight:normal; color:#FFFFFF;background-color:#333333}
+
+/* -- SIDEBARS --*/
+.sidebar-wrap {margin:0px auto;overflow:hidden; float:right; clear:none;width:390px; font-size:0.95em; text-align:left;}
+
+
+.block-1 {float:left; padding:0 5px; width:130px;}
+.block-1 a {color:#555;}
+.block-1 a:hover {color: #8f1213; text-decoration:none;}
+
+.block-2 {float:left; padding: 0 0 0 6px; width:240px;}
+.block-2 a {color:#555;}
+.block-2 a:hover {color: #8f1213; text-decoration:none;}
+
+.block-2-single {float:left; padding: 0 0 0 6px; width:240px;}
+.block-2-single a {color:#555;}
+.block-2-single a:hover {color: #8f1213; text-decoration:none;}
+
+/* -- 404-PAGE --*/ 
+.error404 {margin:0;width:100%;}
+.error404 h1,.error404 h2 {margin: 10px auto;}
+
+/* -- COMMENTS -- */
+div.comments-wrap {margin:15px auto; padding:0;}
+li.comment,li.trackback, li.pingback {margin: 10px auto;padding:5px;}
+ul.children {margin-left:10px;}
+ul.commentlist, ul.pinglist {margin:10px 0;}
+div.reply {}
+textarea#comment {overflow:auto; width:480px;}
+
+.addtoany_special_service {width:105px;}
+
+/* -- ALIGNMENTS --*/
+img.alignright {float:right;clear:none;margin:0 0 1em 1em}
+img.alignleft {float:left;clear:none;margin:0 1em 1em 0}
+img.aligncenter {display: block; margin:1em auto; text-align:center}
+img.alignnone {margin:0 0.5em 0 0;}
+
+/* -- NAVIGATION --*/
+div.navigation {width:100%;height:auto;float:left;clear:both;padding: 10px 0px;}
+.navigation-index {}
+.nav-next {float:right;clear:none;width:48%; text-align:right;}
+.nav-prev {float:left;clear:none;width:48%; text-align:left;}
+
+.wp-caption img{
+   padding:2px;
+   border:1px solid #999;
+}
+
+.wp-caption img:hover{
+   border:1px solid #333;
+}
+
+.wp-caption p.wp-caption-text {
+   color:#999;
+   font-size: 10px;
+   line-height: 12px;
+   padding: 7px 4px 2px 5px!important;
+   margin: 0!important;
+	
+}
+/*Separaci�n en las l�neas de comentarios con im�genes*/
+#recentcomments_gravs li {margin-top:7px;}
+
+
+
+
+
+.twitter  li {
+padding:5px;
+
+}
+.twitter a {color:#8f1213;}
+
+/*-----------------coldform------*/
+/* 
+Coldskin #1 for Contact Coldform WordPress Plugin
+@ http://perishablepress.com/press/2008/01/08/contact-coldform/ 
+@ http://perishablepress.com/press/2008/01/15/contact-coldskins/
+*/
+
+div#coldform * {
+	padding: 0;
+	margin: 0; 
+}
+div#coldform {
+	font-family: Verdana, sans-serif;
+	background-color: #fff;
+	font-size: 11px;
+	margin: 11px 0;
+	width: 500px;
+	color: #333;
+}
+div#coldform fieldset {
+	border: 0 none;
+	display: block;
+	clear: both;
+}
+div#coldform legend.hide {
+	display: none;
+}
+div#coldform label.label {
+	text-align: right;
+	display: block;
+	padding: 3px 0;
+	margin: 3px 0;
+	width: 125px;
+	clear: left;
+	float: left;
+}
+input#coldform_carbon { 
+	margin: 0 0 -7px 7px; 
+}
+div#coldform textarea#coldform_message,  
+div#coldform input.input {
+	font-family: Verdana, sans-serif;
+	margin: 3px 11px;
+	font-size: 11px;
+	display: block;
+	padding: 3px;
+	width: 300px;
+	float: left;
+}
+div#coldform input.submit {
+	margin: 3px 0 13px 137px;
+	display: block;
+	width: 307px;
+	float: left;
+}
+
+/*--Trozo para los miniposts de tumblr--*/
+.tumblr { padding: 5px 18px 5px 18px; border: 3px solid #f3f3f3; margin: 0 0 28px;}
+div.imagen { display: block; float: left; height:81px; width:66px; border: 0px solid #cfcfcf; margin:10px 20px 10px 0;padding:5px;background-color:#fff;}
+.texto {font-size: 1.1em; font-family:Tahoma, sans-serif;text-align:justify; color:333;}
+.texto{padding:10px 0 10px 0;overflow:hidden}
+.texto a{text-decoration: none; font-weight:bold; color:#5d721f;}
+.texto a:hover{text-decoration:underline; font-weight:bold; color:#A11111;}
+.clear {clear: both; margin: 0; padding: 0;}
+/*---*/
+
+/*-- para centrar los videos --*/
+object { display:block;
+margin-left:auto;
+margin-right:auto;}
+/*--*/
+
+
+
+/* ALL YOUR CODE ARE BELONG TO POETRY */
